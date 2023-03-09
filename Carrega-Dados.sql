@@ -82,10 +82,10 @@ mysql.exe --local-infile=1 -u root -p
 SET GLOBAL local_infile = true;
 
 # Carrega os dados
-LOAD DATA LOCAL INFILE '/Users/dmpm/Dropbox/DSA/SQL-Para-Data-Science/Cap07/EstudoCaso1/covid_mortes.csv' INTO TABLE `cap07`.`covid_mortes` CHARACTER SET UTF8
+LOAD DATA LOCAL INFILE '/Users/covid_mortes.csv' INTO TABLE `cap07`.`covid_mortes` CHARACTER SET UTF8
 FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 LINES;
 
-LOAD DATA LOCAL INFILE '/Users/dmpm/Dropbox/DSA/SQL-Para-Data-Science/Cap07/EstudoCaso1/covid_vacinacao.csv' INTO TABLE `cap07`.`covid_vacinacao` CHARACTER SET UTF8
+LOAD DATA LOCAL INFILE '/Users/covid_vacinacao.csv' INTO TABLE `cap07`.`covid_vacinacao` CHARACTER SET UTF8
 FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\r\n' IGNORE 1 LINES;
 
 
