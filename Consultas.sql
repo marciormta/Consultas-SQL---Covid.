@@ -1,4 +1,3 @@
-# Estudo de Caso 1
 
 # Total de registros
 SELECT COUNT(*) FROM cap07.covid_mortes;
