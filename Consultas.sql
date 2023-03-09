@@ -1,4 +1,3 @@
-# Solução exercício 5
 
 
 # 1- Qual a média de tempo (em segundos) de duração do aluguel de bike por tipo de membro?
