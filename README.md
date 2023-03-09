@@ -1,1 +1,1 @@
-# Objetivo de analisar dados reais sobre a pandemia Covid-19.
+# Objetivo de analisar dados reais sobre Covid-19.
